@@ -1,0 +1,100 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Entering Username \u0026 Password for facebook web application",
+        "description": "",
+        "id": "facebook-login-screen;entering-username-\u0026-password-for-facebook-web-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259091625,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Launch Facebook on browser",
+            "match": {
+              "location": "FacebookLoginScreen.launch_Facebook_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4295943792,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I want to enter username \"karthik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthik\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FacebookLoginScreen.i_want_to_enter_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 270709,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I want to enter Password \"123456karthik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456karthik\"",
+                  "offset": 25
+                }
+              ],
+              "location": "FacebookLoginScreen.i_want_to_enter_Password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2327331084,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login button",
+            "match": {
+              "location": "FacebookLoginScreen.i_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Facebook"
+          },
+          {
+            "name": "@Fb"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Screen",
+    "description": "",
+    "id": "facebook-login-screen",
+    "keyword": "Feature",
+    "uri": "src/test/resources/stepdefinitionpackage/FacebookLoginScreen.feature",
+    "tags": [
+      {
+        "name": "@Facebook",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
